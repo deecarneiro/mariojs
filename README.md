@@ -8,7 +8,7 @@ Simple Mario Bros game in javascript with lib kaboom.js.
 
 - [Kaboom.js](https://kaboomjs.com/)
 
-## Screens
+## Screenshoots
 
 - 1. First Level 
 ![level1](https://user-images.githubusercontent.com/44411176/155918163-17da9354-4b26-483a-8386-34f4d4ab8942.png)
