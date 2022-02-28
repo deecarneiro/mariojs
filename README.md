@@ -1,4 +1,4 @@
-# README MODEL
+# Mariojs
 
 ## Description
 
@@ -9,6 +9,19 @@ Simple Mario Bros game in javascript with lib kaboom.js.
 - [Kaboom.js](https://kaboomjs.com/)
 
 ## Screens
+
+- 1. First Level 
+![level1](https://user-images.githubusercontent.com/44411176/155918163-17da9354-4b26-483a-8386-34f4d4ab8942.png)
+
+- 2. Second Level 
+![level2](https://user-images.githubusercontent.com/44411176/155918194-68b25add-1f60-457a-a1d4-7218f78c289d.png)
+
+- 3. Third Level
+![level3](https://user-images.githubusercontent.com/44411176/155918217-b1241e5f-2b08-4dc8-bf1d-2860ce41821b.png)
+
+- 4. Over Game
+![overgame](https://user-images.githubusercontent.com/44411176/155918245-9cc25d2d-66d0-4b3d-947e-26f4dfa3e394.png)
+
 
 ## Code Snippets
 
@@ -22,7 +35,9 @@ Simple Mario Bros game in javascript with lib kaboom.js.
 - 2. Declarating maps
   ```javascript
   ....
-       const maps = [[
+       const maps = [
+       //First level
+       [
         '                                                                ',
         '                                                                ',
         '                                                                ',
@@ -39,7 +54,9 @@ Simple Mario Bros game in javascript with lib kaboom.js.
         '                      $$      ^     ^      $$$$           ()    ',
         '============= =====  =======  =========  ========  ====  =======',
 
-    ], [
+    ], 
+    //Second level
+    [
 
         '                                                                ',
         '                                                                ',
@@ -57,6 +74,7 @@ Simple Mario Bros game in javascript with lib kaboom.js.
         '                      $$      ^     ^       ^                   ',
         '=======  ==========  ==================  ========  ====  =======',
     ],
+    //Third level
     [
 
         '                                                                ',
@@ -100,7 +118,7 @@ Simple Mario Bros game in javascript with lib kaboom.js.
     }
     ...
   ```
-  - 4. When Mario collides with coin
+- 4. When Mario collides with coin
    ```javascript
    ...
     player.collides('coin', (c) => {
@@ -110,7 +128,7 @@ Simple Mario Bros game in javascript with lib kaboom.js.
     })
    ...
    ```
- - 5. Mario moves keypress
+- 5. Mario moves keypress
   ```javascript
   ...
     keyDown('left', () => {
@@ -145,7 +163,7 @@ Simple Mario Bros game in javascript with lib kaboom.js.
     })
    ...
   ```
-- 6. Losing scene 
+  - 6. Losing scene 
   ```javascript
   ...
   scene('lose', ({ score }) => {
